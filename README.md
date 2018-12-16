@@ -12,7 +12,7 @@ Once here, the following command line arguments will need to be entered every ti
 
 After that, you can choose whether you want to look up information on a song, a band's upcoming concerts, or a movie.  This can be done with the commands: spotify-this-song   :   concert-this    :   movie-this
 
-Commands can also be taken from the text file "random.txt", and that can be done by entering:      do-what-it-wants
+Commands can also be taken from the text file "random.txt", and that can be done by entering:      do-what-it-says
 
 Whenever the program is executed, a message saying "this is loaded" will display before the results.  This is to show that the keys from the keys.js file have been accessed successfully.
 
@@ -24,3 +24,28 @@ concert-this is followed by the name of a band, and then information on that ban
 
 ![concert-this](/screenshots/concerts.png)
 
+movies-this works in a similar way, movie-this followed by the name of a movie, and information about that movie is returned.  If no movie name is given, the information for the movie "Mr. Nobody" will be shown:
+
+![movies-this](/screenshots/movies.png)
+
+do-what-it-says reads from the text file "random.txt", which contains a line of text in the format:
+
+spotify-this-song/concert-this/movie-this,"Song Name/Band Name/Movie Title"
+
+Here is an example with a song
+
+![random.txt format](/screenshots/random.png)
+
+and when do-what-it-says is run, it will read from the random.txt file and search accordingly:
+
+![do-what-it-says](/screenshots/do-what-it-says.png)
+
+And that is pretty much all there is to the LIRI App!
+
+I hope you find these instructions helpful and the app itself useful or entertaining.
+
+-Daniel O'Connell
+
+The link to my Portfolio is here:
+
+https://dano5190.github.io/Bootstrap-Portfolio/
